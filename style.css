@@ -1,0 +1,88 @@
+table{
+    border-style: groove;
+    border-color: brown;
+    background-color: chartreuse;
+}
+tr,td{
+    border-style: solid;
+}
+body{
+    background-color:darkgrey
+}
+h1{
+    font-size: 50px;
+    text-align: center;
+    color: red;
+}
+#photo{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+}
+li{
+    text-decoration: underline;
+    font-size: 25px;
+}
+input,label{
+    font-size: 20px;
+    font-style:oblique;
+    font-weight: bolder;
+    color:blue;
+}
+#header > button{
+    font-size: 40px;
+    font-style:oblique;
+    font-weight: bolder;
+    color: blueviolet;
+}
+
+
+h2{
+    font-size: 35px;
+}
+h3{
+    font-size: 30px;
+}
+#switzerland{
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+#container{
+    display: flex;
+}
+#container > div {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    padding: 15px,30px,20px,15px;
+}
+#first,#second{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+#first > div,#second > div{
+    margin: 10px;
+    padding: 20px;
+
+}
+
+#about{
+    height: 70%;
+}
+#wrapper {
+    height: 40%;
+    font-size: 30px;
+}
+#work,#wrapper,#hobby,#video,#about{
+    display: none;
+}
+#github,#linkedin{
+    width: 60px;
+}
+.icon {
+    width: 40px;
+}

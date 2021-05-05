@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Page</title>
+</head>
+<body>
+    <!--This page created by Mehmet Sökmen-->
+    <img src="./images/mehmet_sokmen.jpg" alt="Mehmet Sokmen" id="photo"/>
+    <h1>THIS IS MY WEBSITE</h1>
+    <div id="header">
+        <button onclick="who()">Who am I ?</button>
+        <button onclick="about()">About Me</button>
+        <button onclick="work()">My Works</button>
+        <button onclick="hobby()">My Hobbies</button>
+        <button onclick="video()">About of Switzerland</button>
+    </div>
+    <div id="container">
+        <div id="first">
+    <div id="wrapper">
+        <h2>Who am I ?</h2>
+    <p>My name is Mehmet Sökmen. I am from Turkey. I'm 33 years old. 
+        I'm married and I have one daughter.
+        I am an experienced Mathematics and Physics teacher.
+        I worked as a teacher 5 years in Turkey, 1 year in Sudan, 3 years in Iraq . 
+    </p>
+    <a href="https://github.com/sokmen4083">Click to My GitHub <img id="github" src="./images/GitHub-Logo.png" alt="GitHub Logo"/></a>
+    </br>
+    <a href="https://www.linkedin.com/in/mehmet-s%C3%B6kmen-0b34851b8/">Click to My Linkedin<img id="linkedin" src="./images/linkedin-logo.png" alt="Linkedin Logo"/></a>
+    </div>
+    <div id="about">
+    <h2>My Schools</h2>
+    <ol>
+        <li><a href="https://kibrisilkokulu.meb.k12.tr/">Kibris Primary School(in Turkey)</a></li>
+        <li><a href="https://kibrisortaokulu.meb.k12.tr/">Kibris Secondary School(in Turkey)</a></li>
+        <li><a href="https://mimarsinanlisesi.meb.k12.tr/">Mimar Sinan High School(in Turkey)</a></li>
+        <li><a href="http://www.firat.edu.tr/tr">Firat University(in Turkey)</a></li>
+    </ol>
+</div>
+</div>
+<div id="second">
+<div id="work">
+    <h2>My Works</h2>
+    <table class="table">
+        <th>Institution of employment</th>
+        <th>Years</th>
+        <tr>
+            <td>Elazig Fem Privat School(in Turkey)</td>
+            <td>2010-2011</td>
+        </tr>
+        <tr>
+            <td>Bingol Fem Privat School(in Turkey)</td>
+            <td>2011-2015</td>
+        </tr><tr>
+            <td>Sudan Turkish School(in Sudan)</td>
+            <td>2015-2016</td>
+        </tr><tr>
+            <td>Ronaki Hawler Education Company(in Iraq)</td>
+            <td>2016-2019</td>
+        </tr>
+    </table>
+</div>
+<div id="hobby">
+    <h2>My Hobbies</h2>
+    <ul >
+        <li><a href="./hobbies/football.html"> Playing Football <img class="icon" src="./images/football.png"></a></li>
+        <li><a href="./hobbies/music.html">Listening Music <img class="icon" src="./images/listen.png"></a></li>
+        <li><a href="./hobbies/book.html">Reading Book <img class="icon" src="./images/reading.png"></a></li>
+        <li><a href="./hobbies/cooking.html">Cooking <img class="icon" src="./images/cooking.png"></a></li>
+        <li><a href="./hobbies/eating.html">Eating <img class="icon" src="./images/eating.png"></a></li>
+        <li><a href="./hobbies/coding.html">Coding <img class="icon" src="./images/coding.png"></a></li>
+    </ul>
+</li>
+</div>
+<div id="video">
+<h2>About of Switzerland</h2>
+<video  width="360" height="320"controls>
+    <source src="./video/Top 10 Places To Visit In Switzerland.mp4" type="video/mp4">
+</video>
+<div id="switzerland">Top 10 Places To Visit In Switzerland</div>
+</div>
+</div>
+</div>
+    
+     <script src="./app.js"></script>
+     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
