@@ -17,8 +17,6 @@ h1{
 #photo{
     width: 80px;
     height: 80px;
-    position: absolute;
-    right: 0;
 }
 li{
     text-decoration: underline;
@@ -30,8 +28,8 @@ input,label{
     font-weight: bolder;
     color:blue;
 }
-#header > button{
-    font-size: 40px;
+nav ul li button{
+    font-size: 20px;
     font-style:oblique;
     font-weight: bolder;
     color: blueviolet;
@@ -71,10 +69,10 @@ h3{
 }
 
 #about{
-    height: 70%;
+    height: 60%;
 }
 #wrapper {
-    height: 40%;
+    height: 60%;
     font-size: 30px;
 }
 #work,#wrapper,#hobby,#video,#about{
@@ -85,4 +83,43 @@ h3{
 }
 .icon {
     width: 40px;
+}
+
+  #wrapper > h2:hover,#about > h2:hover,#work > h2:hover,#hobby > h2:hover, #video > h2:hover{
+      background-color: blue;
+      color:paleturquoise;
+  }
+  #wrapper > p:hover{
+    background-color:green;
+    color:white;
+}
+#wrapper > a:hover,#about > ol > li > a:hover,#hobby-link > li > a:hover{
+    background-color:yellow;
+    color:red;
+}
+.table:hover{
+    background-color: aqua;
+}
+h1:hover{
+    color: yellow;
+    background-color: aqua;
+}
+#header ul li:hover:nth-child(3){
+    background-color: brown;
+}
+
+#header > ul > li:hover:nth-child(5){
+    background-color: yellow;
+}
+#header > ul > li:hover{
+    background-color:red;
+}
+#header > ul > li > a:hover{
+    background-color:red;
+    color: yellow;
+}
+nav ul li {
+    margin: 0 60px;
+    display: inline-block;
+    line-height: 80px;
 }

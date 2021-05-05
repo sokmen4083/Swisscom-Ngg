@@ -9,19 +9,20 @@
 </head>
 <body>
     <!--This page created by Mehmet Sökmen-->
-    <img src="./images/mehmet_sokmen.jpg" alt="Mehmet Sokmen" id="photo"/>
     <h1>THIS IS MY WEBSITE</h1>
-    <div id="header">
-        <button onclick="who()">Who am I ?</button>
-        <button onclick="about()">About Me</button>
-        <button onclick="work()">My Works</button>
-        <button onclick="hobby()">My Hobbies</button>
-        <button onclick="video()">About of Switzerland</button>
-    </div>
+<nav id="header">
+    <ul>
+        <li><a href="#" onclick="who()">Who am I ?</a></li>
+        <li><a href="#" onclick="about()">About Me</a</li>
+        <li><a href="#" onclick="work()">My Works</a></li>
+        <li><a href="#" onclick="hobby()">My Hobbies</a></li>
+        <li><a href="#" onclick="video()">About of Switzerland</a></li>
+    </ul>
+</nav>
     <div id="container">
         <div id="first">
     <div id="wrapper">
-        <h2>Who am I ?</h2>
+        <h2>Who am I ? <img src="./images/mehmet_sokmen.jpg" alt="Mehmet Sokmen" id="photo"/></h2>
     <p>My name is Mehmet Sökmen. I am from Turkey. I'm 33 years old. 
         I'm married and I have one daughter.
         I am an experienced Mathematics and Physics teacher.
@@ -65,7 +66,7 @@
 </div>
 <div id="hobby">
     <h2>My Hobbies</h2>
-    <ul >
+    <ul id="hobby-link">
         <li><a href="./hobbies/football.html"> Playing Football <img class="icon" src="./images/football.png"></a></li>
         <li><a href="./hobbies/music.html">Listening Music <img class="icon" src="./images/listen.png"></a></li>
         <li><a href="./hobbies/book.html">Reading Book <img class="icon" src="./images/reading.png"></a></li>
