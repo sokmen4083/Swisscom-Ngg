@@ -47,20 +47,40 @@
     <h2>My Works</h2>
     <table class="table">
         <th>Institution of employment</th>
-        <th>Years</th>
+        <th>Starting Year</th>
+        <th>End Year</th>
+        <th>Calculate</th>
+        <th>How many years worked</th>
         <tr>
             <td>Elazig Fem Privat School(in Turkey)</td>
-            <td>2010-2011</td>
+            <td><input type="number" value="2010" id="start1"></input></td>
+            <td><input type="number" value="2011" id="finish1"></input></td>
+           <td><button onclick="year1()">Calculate</button></td>
+            <td id="year1"></td>
         </tr>
         <tr>
             <td>Bingol Fem Privat School(in Turkey)</td>
-            <td>2011-2015</td>
+            <td><input type="number" value="2011" id="start2"></input></td>
+            <td><input type="number" value="2015" id="finish2"></input></td>
+           <td><button onclick="year2()">Calculate</button></td>
+            <td id="year2"></td>
         </tr><tr>
             <td>Sudan Turkish School(in Sudan)</td>
-            <td>2015-2016</td>
-        </tr><tr>
+            <td><input type="number" value="2015" id="start3"></input></td>
+            <td><input type="number" value="2016" id="finish3"></input></td>
+           <td><button onclick="year3()">Calculate</button></td>
+            <td id="year3"></td>
+        </tr>
+        <tr>
             <td>Ronaki Hawler Education Company(in Iraq)</td>
-            <td>2016-2019</td>
+            <td><input type="number" value="2016" id="start4"></input></td>
+            <td><input type="number" value="2019" id="finish4"></input></td>
+           <td><button onclick="year4()">Calculate</button></td>
+            <td id="year4"></td>
+        </tr>
+        <tr>
+            <td class="total" colspan="4">Total Working Years</td>
+            <td id="total-year"></td>
         </tr>
     </table>
 </div>

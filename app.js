@@ -1,20 +1,68 @@
 function who(){
-    swal('Now you will know me a little')
     document.getElementById('wrapper').style.display = 'block'
 }
 function about(){
-    swal('Now you will see which schools I attend')
     document.getElementById('about').style.display = 'block'
 }
 function work(){
-    swal('Now you will see where I work which job')
     document.getElementById('work').style.display = 'block'
 }
 function hobby(){
-    swal('Now you will see my hobbies')
     document.getElementById('hobby').style.display = 'block'
 }
 function video(){
-    swal('Now you will see a video about Switzerland')
     document.getElementById('video').style.display = 'block'
 }
+function year1(){
+    document.getElementById("year1").innerHTML = 
+    document.getElementById("finish1").value - document.getElementById("start1").value;
+    document.getElementById("year1").style.backgroundColor = 'yellow'
+    document.getElementById("year1").style.fontSize = '40px'
+    document.getElementById("year1").style.textAlign = 'center'
+    document.getElementById("total-year").innerHTML = 
+    document.getElementById("finish1").value - document.getElementById("start1").value;
+    document.getElementById("total-year").style.backgroundColor = 'yellow'
+    document.getElementById("total-year").style.fontSize = '40px'
+    document.getElementById("total-year").style.textAlign = 'center'
+}
+function year2(){
+    document.getElementById("year2").innerHTML = 
+    document.getElementById("finish2").value - document.getElementById("start2").value;
+    document.getElementById("year2").style.backgroundColor = 'yellow'
+    document.getElementById("year2").style.fontSize = '40px'
+    document.getElementById("year2").style.textAlign = 'center'
+    document.getElementById("total-year").innerHTML = 
+    (document.getElementById("finish1").value - document.getElementById("start1").value) 
+    +
+    (document.getElementById("finish2").value - document.getElementById("start2").value);
+    
+}
+function year3(){
+    document.getElementById("year3").innerHTML = 
+    document.getElementById("finish3").value - document.getElementById("start3").value;
+    document.getElementById("year3").style.backgroundColor = 'yellow'
+    document.getElementById("year3").style.fontSize = '40px'
+    document.getElementById("year3").style.textAlign = 'center'
+    document.getElementById("total-year").innerHTML = 
+    (document.getElementById("finish1").value - document.getElementById("start1").value) 
+    +
+    (document.getElementById("finish2").value - document.getElementById("start2").value)
+    +
+    (document.getElementById("finish3").value - document.getElementById("start3").value)
+}
+function year4(){
+    document.getElementById("year4").innerHTML = 
+    document.getElementById("finish4").value - document.getElementById("start4").value;
+    document.getElementById("year4").style.backgroundColor = 'yellow'
+    document.getElementById("year4").style.fontSize = '40px'
+    document.getElementById("year4").style.textAlign = 'center'
+    document.getElementById("total-year").innerHTML = 
+    (document.getElementById("finish1").value - document.getElementById("start1").value) 
+    +
+    (document.getElementById("finish2").value - document.getElementById("start2").value)
+    +
+    (document.getElementById("finish3").value - document.getElementById("start3").value)
+    +
+    (document.getElementById("finish4").value - document.getElementById("start4").value)
+}
+
